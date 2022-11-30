@@ -157,6 +157,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
+    Android: com.RhilGames.AdventurersMatch
     Standalone: com.DefaultCompany.2DProject
   buildNumber:
     Standalone: 0
@@ -164,8 +165,8 @@ PlayerSettings:
     tvOS: 0
   overrideDefaultApplicationIdentifier: 1
   AndroidBundleVersionCode: 1
-  AndroidMinSdkVersion: 22
-  AndroidTargetSdkVersion: 0
+  AndroidMinSdkVersion: 31
+  AndroidTargetSdkVersion: 31
   AndroidPreferredInstallLocation: 1
   aotOptions: 
   stripEngineCode: 1
@@ -243,7 +244,7 @@ PlayerSettings:
   templateDefaultScene: Assets/Scenes/SampleScene.unity
   useCustomMainManifest: 0
   useCustomLauncherManifest: 0
-  useCustomMainGradleTemplate: 0
+  useCustomMainGradleTemplate: 1
   useCustomLauncherGradleManifest: 0
   useCustomBaseGradleTemplate: 0
   useCustomGradlePropertiesTemplate: 0
@@ -812,7 +813,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    EmbeddedLinux: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    GameCoreScarlett: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    GameCoreXboxOne: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    LinuxHeadlessSimulation: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    Lumin: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    Nintendo Switch: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    PS4: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    PS5: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    QNX: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    Stadia: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    Standalone: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    WebGL: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    Windows Store Apps: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    XboxOne: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    iPhone: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
+    tvOS: EASY_MOBILE;EASY_MOBILE_PRO;EM_URP
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -833,8 +851,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D_BuiltInRenderer
-  metroPackageVersion: 
+  metroPackageName: 2DBuiltInRenderer
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -842,7 +860,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: 2D_BuiltInRenderer
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Adventurers Match
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
@@ -901,15 +919,15 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  activeInputHandler: 0
-  cloudProjectId: 
+  activeInputHandler: 2
+  cloudProjectId: 1f8438b3-812c-4516-b312-887fc614451a
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: PuzzleGame
+  organizationId: rhil-games
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 
   forceSRGBBlit: 1
   virtualTexturingSupportEnabled: 0
-  insecureHttpOption: 0
+  insecureHttpOption: 2
